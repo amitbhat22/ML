@@ -6,11 +6,8 @@ with open('Enjoy-sport.csv', 'r') as f:
     data = list(reader)
 print(data,"\n")
 print("\n")
-
 d = np.array(data)[:,:-1]
 print(" The attributes are: \n",d)
-
-
 h = ['0', '0', '0', '0', '0', '0']
 
 for row in data:
